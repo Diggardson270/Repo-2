@@ -18,11 +18,17 @@ header ul{
     font-family: 'Raleway', sans-serif;
     list-style: none;
     display: flex;
+    text-decoration: none;
 }
 
 header li{ 
     margin-left: 5rem;
 }
+
+nav a{ 
+    text-decoration: none;
+}
+
 
 .section-one{ 
     display: flex;
@@ -32,7 +38,7 @@ header li{
 }
 
 .section-one img{ 
-    width: 55rem;
+    width: 35rem;
 }
 
 .content-one{ 
@@ -40,15 +46,10 @@ header li{
 }
 
 .content-one h1{ 
-    font-size: 3rem;
+    color: hsl(243, 87%, 12%);
 }
-
-.content-one p{ 
-    font-size: 1.3rem;
-}
-
 .section-one input{ 
-    width: 25rem;
+    width: 20rem;
     height: 2.5rem;
     margin-right: 1rem;
 }
@@ -73,7 +74,8 @@ header li{
 }
 
 .section-two img{ 
-    width: 55rem;
+    width: 35rem;
+    box-sizing: border-box;
 }
 
 .content-two{ 
@@ -81,12 +83,9 @@ header li{
 }
 
 .content-two h1{ 
-    font-size: 2.7rem;
+    color: hsl(243, 87%, 12%);
 }
 
-.content-two p{ 
-    font-size: 1.3rem;
-}
 
 .comment{ 
     width: 24rem;
@@ -140,13 +139,6 @@ header li{
     width: 40rem;
 }
 
-.content-three h1{ 
-    font-size: 3rem;
-}
-
-.content-three p{ 
-    font-size: 1.3rem;
-}
 
 .section-three input{
     display: block; 
